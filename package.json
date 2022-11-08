@@ -1,0 +1,30 @@
+{
+  "name": "blog_wanderers_trips_be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/personal_project8/blog_wanderers_trips_be.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/personal_project8/blog_wanderers_trips_be/issues"
+  },
+  "homepage": "https://gitlab.com/personal_project8/blog_wanderers_trips_be#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-plugin-react": "^7.31.8",
+    "nodemon": "^2.0.20"
+  }
+}
